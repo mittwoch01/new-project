@@ -1,7 +1,6 @@
+import '../style/Footer.scss';
 import FootGnb from '../page/FootGnb.js';
 import FootAddress from '../page/FootAddress.js';
-
-import '../style/Footer.scss';
 
 export default function Footer() {
   return (
