@@ -1,4 +1,8 @@
-#mainSale {
-  width: 100%; height: 960px;
-  background-color: #dff;
-}
+#mainSaleBox {
+  width: 100%; height: auto;
+  padding: 32px 50px 32px 50px; box-sizing: border-box;
+  background-color: #dff; }
+h2 {width: 100%; height: 60px; 
+  margin-bottom: 20px;
+  background-color: #ddd;}
+.sale_area { width: 100%; height: 1288px; background-color: #dfa;}

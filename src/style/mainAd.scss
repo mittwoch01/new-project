@@ -1,4 +1,12 @@
-#mainAd { 
-  width: 100%; height: 186px;
+#mainAdBox { 
+  display: flex; justify-content: space-between;
+  width: 100%; height: 316px;
+  padding: 65px 50px 65px 50px; box-sizing: border-box;
   background-color: #dea;
 }
+.main_img_01 { 
+  width: 658px; height: 100%; 
+  margin-right: 18px;
+  background-color: #fff;}
+.main_img_02 { 
+  width: 658px; height: 100%; background-color: #fff;}

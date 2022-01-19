@@ -1,4 +1,13 @@
-#mainPlus {
-  width: 100%; height: 1480px;
+#mainPlusBox {
+  display: flex; flex-direction: column;
+  justify-content: space-between;
+  width: 100%; height: 1500px;
+  padding: 50px; box-sizing: border-box;
   background-color: #5ae;
 }
+h2 { width: 100%; height: 60px; background-color: #add;}
+p { width: 100%; height: 32px; background-color: #ade;}
+.plus_area { 
+  width: 100%; height: 100%; 
+  margin: auto; margin-top: 50px;
+  background-color: #aed;}

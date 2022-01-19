@@ -5,14 +5,21 @@
   width: 100%; height: 530px;
   padding: 2rem; box-sizing: border-box;
   background-color: #add;}
-  .slider_area {
-    width: 100%; height: 520px;
-    margin-bottom: 20px;
-    background-color: rgba(51,102,255,99); }
-  .slide_button { 
-    position: absolute; z-index: 100; top: 42%; 
-    width: 100%; height: 32px; background-color: #fff;}
+  .slide_btn { 
+    position: absolute; z-index: 100; top: 42%; left: 8%;
+    width: 32px; height: 32px; background-color: #fff;}
+  .slide_content {
+    width: 100%; max-width: 1054px; height: 526px;
+    margin: auto; margin-bottom: 20px;
+    background-color: rgba(51,102,255,99);
+  }
   .slider-dot { 
-    width: 70px; height: 36px; 
-    margin: auto;
-    background-color: #fff;}
+    display: flex; justify-content: space-between;
+    width: 70px; height: auto; 
+    margin: auto; 
+    background-color: #fff;
+    li { width: 10px; height: 10px; 
+      background-color: #f0f; 
+      border-radius: 10px; }
+  }
+
